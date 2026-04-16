@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{e1897b5d-4fbc-4ba0-b254-4fe5adc52825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directx">
+      <UniqueIdentifier>{92bb4012-0a26-4eb0-a88a-995efea5c8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{5b8843a6-c016-4b88-9bd9-240f7f0e512f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f8817b1b-4d40-4f5d-8818-80b662645942}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay_window.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay_menu.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay_app.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d11_context.cpp">
+      <Filter>directx</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_layer.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="theme.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="overlay_window.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay_menu.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay_app.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d11_context.hpp">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_layer.hpp">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="theme.hpp">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="win32_error.hpp">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="download.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_api.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
